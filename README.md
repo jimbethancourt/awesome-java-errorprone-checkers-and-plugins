@@ -41,9 +41,9 @@ Usages of the following dependencies that have valid Github repositories were id
 Lombok + Errorprone use Public Service Announcement
 ----------------------------------
 If you are using both Errorprone and Lombok in your project, you will need to specify the Lombok annotation processor path in the compiler plugin.
-For Maven, the followign configuration will need to be used for the **maven-compiler-plugin**
+For Maven, the following configuration will need to be used for the **maven-compiler-plugin**
 For example:
-```
+```xml
         <plugins>
           ...
             <plugin>
